@@ -1,0 +1,102 @@
+/* Add your CSS styles h*/
+
+.display{
+background-color: black;
+object-fit:cover;
+
+}
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+color:white;
+width: 99%;
+height:10%;
+padding: 10px;
+}
+
+#logo-container {
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.logo-background {
+    background-color: red; 
+}
+
+#middle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+#search-bar {
+
+    display:flex;
+    flex-direction: row;
+
+    border-radius: 20px; 
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px!important;
+
+}
+
+#search-input {
+    width: 50%; 
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px; 
+    font-size: 16px;
+    outline: none; 
+    margin-top:10px;
+}
+
+#search-button {
+    background-color: #ff385c; 
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    margin:0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #ff1c4f; /* Button background color on hover */
+}
+
+#banner{
+
+    width:100px;
+    padding: 20px;
+padding-right: 40px;
+
+}
+#listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.listing-card {
+    /* Add your listing card styles here */
+}
+
+.listing-info {
+    /* Add your listing info styles here */
+}
